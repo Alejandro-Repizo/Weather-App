@@ -1,4 +1,4 @@
-import messageInformation from "./additionalData"
+import messageInformation from "../components/additionalData"
 
 const dataArray = []
 

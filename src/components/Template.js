@@ -1,5 +1,6 @@
-import fetchData from "../fetchData"
+import fetchData from '../utils/fetchData.js'
 import badDataMessageInformation from './badData.js'
+
 
 /**
  * Realiza la creacion 

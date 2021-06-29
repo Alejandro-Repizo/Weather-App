@@ -1,4 +1,4 @@
-import { checkStorageData } from "./utils/storageData"
+import { checkStorageData } from "./storageData"
 
 const API_KEY = '21d807407fc08f0dca752a98c2c9b2d1'
 const API_BASE = 'https://api.openweathermap.org'
