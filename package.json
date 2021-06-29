@@ -13,5 +13,9 @@
     "pretty-quick": "^3.1.0",
     "snowpack": "^3.0.11",
     "tailwindcss": "^2.0.2"
-  }
+  },
+  "dependencies": {
+    "sweetalert2": "^11.0.17"
+  },
+  "homepage": "https://Alejandro-Repizo.github.ioWeather-App"
 }
