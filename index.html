@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/img/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/_dist_/index.css" />
+  <title>The Weather</title>
+  <script src="https://kit.fontawesome.com/b4076ce357.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="w-full flex flex-col justify-center items-center">
+
+    <header class="w-full h-28 flex items-center justify-around">
+      <div class=" grid grid-cols-3 grid-rows-2 items-center">
+        <div class="row-span-2 justify-self-end">
+          <i
+            class="fas fa-bolt text-3xl text-transparent bg-clip-text bg-gradient-to-tr from-yellow-500 via-yellow-200 to-yellow-500">
+          </i>
+        </div>
+        <p
+          class="uppercase font-extrabold text-xs  text-transparent bg-clip-text bg-gradient-to-tr from-yellow-500 via-yellow-300 to-yellow-500">
+          The
+        </p>
+        <p
+          class="col-span-2 uppercase font-extrabold text-lg -mt-2  text-transparent bg-clip-text bg-gradient-to-tr from-yellow-500 via-yellow-300 to-yellow-500">
+          weather
+        </p>
+      </div>
+      <div class="flex items-center flex-col mr-6">
+        <a href="https://github.com/Alejandro-Repizo/Weather-App.git"  target="_blank">
+          <i
+            class="fab fa-github text-3xl text-transparent bg-clip-text bg-gradient-to-tr from-yellow-500 via-yellow-200 to-yellow-500">
+          </i>
+        </a>
+        <p class="text-xs text-yellow-300 font-extrabold capitalize tracking-wider">
+          github
+        </p>
+      </div>
+    </header>
+
+    <div class="w-full flex flex-col items-center">
+
+      <div class="px-8 py-2 flex flex-col md:flex-row items-center justify-center">
+        <input type="text"
+          class="bg-gray-200 px-8 py-3 rounded-md tracking-wider leading-snug text-gray-600 placeholder-gray-400 border border-gray-200 md:py-2  hover:bg-white focus:outline-none focus:bg-white"
+          placeholder="Type your city">
+        <button
+          class="transition duration-200 ease-in-ou transform active:translate-y-1 capitalize bg-yellow-400 px-4 py-2  my-4 mx-4 rounded-md tracking-wider font-bold text-white focus:outline-none focus:ring-0 hover:bg-yellow-500">
+          search
+        </button>
+      </div>
+
+      <div id="app" class="grid md:grid-cols-2 lg:grid-cols-4 justify-items-center py-4 md:gap-5 gap-3"></div>
+        
+    </div>
+  </div>
+
+  <!-- Add more scripts here -->
+  <script type="module" src="/_dist_/index.js"></script>
+</body>
+
+</html>
